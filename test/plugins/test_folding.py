@@ -1,5 +1,3 @@
-# Copyright 2019 mullikine
-
 from textwrap import dedent
 
 from pygls import uris
