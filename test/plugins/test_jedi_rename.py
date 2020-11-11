@@ -1,4 +1,3 @@
-# Copyright 2020 Palantir Technologies, Inc.
 import os
 import sys
 

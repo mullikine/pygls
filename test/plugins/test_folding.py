@@ -1,4 +1,4 @@
-# Copyright 2019 Palantir Technologies, Inc.
+# Copyright 2019 mullikine
 
 from textwrap import dedent
 
