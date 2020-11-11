@@ -1,4 +1,3 @@
-# Copyright 2019 Palantir Technologies, Inc.
 """Linter pluging for flake8"""
 import logging
 import os.path

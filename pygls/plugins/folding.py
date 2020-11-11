@@ -1,5 +1,5 @@
 # pylint: disable=len-as-condition
-# Copyright 2019 Palantir Technologies, Inc.
+# Copyright 2019 mullikine
 
 import re
 
