@@ -9,7 +9,7 @@ try:
 except Exception:  # pylint: disable=broad-except
     import json
 
-from .python_ls import (PythonLanguageServer, start_io_lang_server,
+from .glossary_ls import (GlossaryLanguageServer, start_io_lang_server,
                         start_tcp_lang_server)
 
 LOG_FORMAT = "%(asctime)s UTC - %(levelname)s - %(name)s - %(message)s"
@@ -62,11 +62,11 @@ def main():
 
     if args.tcp:
         start_tcp_lang_server(args.host, args.port, args.check_parent_process,
-                              PythonLanguageServer)
+                              GlossaryLanguageServer)
     else:
         stdin, stdout = _binary_stdio()
         start_io_lang_server(stdin, stdout, args.check_parent_process,
-                             PythonLanguageServer)
+                             GlossaryLanguageServer)
 
 
 def _binary_stdio():

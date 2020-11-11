@@ -8,7 +8,7 @@ from threading import Thread
 from pygls_jsonrpc.exceptions import JsonRpcMethodNotFound
 import pytest
 
-from pygls.python_ls import start_io_lang_server, PythonLanguageServer
+from pygls.glossary_ls import start_io_lang_server, GlossaryLanguageServer
 
 CALL_TIMEOUT = 10
 PY2 = sys.version_info[0] == 2
@@ -36,11 +36,11 @@ class _ClientServer(object):
                 ParallelKind = multiprocessing.Process
 
         self.process = ParallelKind(target=start_io_lang_server, args=(
-            os.fdopen(csr, 'rb'), os.fdopen(scw, 'wb'), check_parent_process, PythonLanguageServer
+            os.fdopen(csr, 'rb'), os.fdopen(scw, 'wb'), check_parent_process, GlossaryLanguageServer
         ))
         self.process.start()
 
-        self.client = PythonLanguageServer(os.fdopen(scr, 'rb'), os.fdopen(csw, 'wb'), start_io_lang_server)
+        self.client = GlossaryLanguageServer(os.fdopen(scr, 'rb'), os.fdopen(csw, 'wb'), start_io_lang_server)
         self.client_thread = Thread(target=start_client, args=[self.client])
         self.client_thread.daemon = True
         self.client_thread.start()

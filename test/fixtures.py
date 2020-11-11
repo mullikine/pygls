@@ -6,7 +6,7 @@ import pytest
 
 from pygls import uris
 from pygls.config.config import Config
-from pygls.python_ls import PythonLanguageServer
+from pygls.glossary_ls import GlossaryLanguageServer
 from pygls.workspace import Workspace, Document
 
 if sys.version_info[0] < 3:
@@ -25,7 +25,7 @@ def main():
 @pytest.fixture
 def pygls(tmpdir):
     """ Return an initialized python LS """
-    ls = PythonLanguageServer(StringIO, StringIO)
+    ls = GlossaryLanguageServer(StringIO, StringIO)
 
     ls.m_initialize(
         processId=1,
