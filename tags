@@ -223,7 +223,7 @@ _user_config_file	pygls/config/flake8_conf.py	/^    def _user_config_file(self):
 add_arguments	pygls/__main__.py	/^def add_arguments(parser):$/;"	f
 apply_change	pygls/workspace.py	/^    def apply_change(self, change):$/;"	m	class:Document
 apply_edit	pygls/workspace.py	/^    def apply_edit(self, edit):$/;"	m	class:Workspace
-author	setup.py	/^    author='Palantir Technologies, Inc.',$/;"	v
+author	setup.py	/^    author='mullikine',$/;"	v
 boolean_options	versioneer.py	/^        boolean_options = []$/;"	v	class:get_cmdclass.cmd_version
 build_args	pygls/plugins/flake8_lint.py	/^def build_args(options):$/;"	f
 build_args_stdio	pygls/plugins/pylint_lint.py	/^def build_args_stdio(settings):$/;"	f

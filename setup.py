@@ -32,7 +32,7 @@ setup(
     # The project's main homepage.
     url='https://github.com/mullikine/glossary-language-server',
 
-    author='Palantir Technologies, Inc.',
+    author='mullikine',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
