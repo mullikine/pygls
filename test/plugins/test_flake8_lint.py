@@ -1,4 +1,3 @@
-# Copyright 2019 mullikine
 import tempfile
 import os
 from mock import patch
