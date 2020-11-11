@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 from pygls import uris
 from pygls.plugins.autopep8_format import pygls_format_document, pygls_format_range
 from pygls.workspace import Document

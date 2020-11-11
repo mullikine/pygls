@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 import os
 import sys
 import pluggy

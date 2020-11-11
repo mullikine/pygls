@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 import sys
 import pytest
 from pygls import IS_WIN

@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 """Some Language Server Protocol constants
 
 https://github.com/Microsoft/language-server-protocol/blob/master/protocol.md

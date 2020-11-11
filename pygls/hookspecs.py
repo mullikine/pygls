@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 # pylint: disable=redefined-builtin, unused-argument
 from pygls import hookspec
 

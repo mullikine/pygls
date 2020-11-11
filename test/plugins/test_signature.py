@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 import pytest
 from pygls import uris
 from pygls.plugins import signature

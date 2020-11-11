@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 import os
 from pygls import lsp, uris
 from pygls.workspace import Document

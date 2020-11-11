@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 from test.fixtures import DOC_URI, DOC
 from pygls.workspace import Document
 

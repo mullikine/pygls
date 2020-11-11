@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 from functools import partial
 import logging
 import os

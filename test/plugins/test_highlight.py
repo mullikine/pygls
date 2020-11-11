@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 from pygls import lsp, uris
 from pygls.workspace import Document
 from pygls.plugins.highlight import pygls_document_highlight

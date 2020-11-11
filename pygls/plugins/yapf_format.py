@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 import logging
 import os
 from yapf.yapflib import file_resources

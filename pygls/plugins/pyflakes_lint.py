@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 from pyflakes import api as pyflakes_api, messages
 from pygls import hookimpl, lsp
 

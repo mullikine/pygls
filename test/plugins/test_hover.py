@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 
 from pygls import uris
 from pygls.plugins.hover import pygls_hover

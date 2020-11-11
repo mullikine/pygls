@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 from test import unix_only, windows_only
 import pytest
 from pygls import uris

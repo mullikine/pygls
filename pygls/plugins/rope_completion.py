@@ -1,4 +1,3 @@
-# Copyright 2017 Palantir Technologies, Inc.
 import logging
 from rope.contrib.codeassist import code_assist, sorted_proposals
 
