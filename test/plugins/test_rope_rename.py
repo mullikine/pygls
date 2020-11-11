@@ -1,9 +1,9 @@
 import os
 
 import pytest
-from pyls import uris
-from pyls.plugins.rope_rename import pyls_rename
-from pyls.workspace import Document
+from pygls import uris
+from pygls.plugins.rope_rename import pygls_rename
+from pygls.workspace import Document
 
 DOC_NAME = "test1.py"
 DOC = """class Test1():
@@ -24,7 +24,7 @@ def test_rope_rename(tmp_workspace, config):  # pylint: disable=redefined-outer-
     DOC_URI = uris.from_fs_path(os.path.join(tmp_workspace.root_path, DOC_NAME))
     doc = Document(DOC_URI, tmp_workspace)
 
-    result = pyls_rename(config, tmp_workspace, doc, position, "ShouldBeRenamed")
+    result = pygls_rename(config, tmp_workspace, doc, position, "ShouldBeRenamed")
     assert len(result.keys()) == 1
 
     changes = result.get("documentChanges")

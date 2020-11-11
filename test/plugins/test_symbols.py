@@ -4,10 +4,10 @@ import sys
 
 import pytest
 
-from pyls import uris
-from pyls.plugins.symbols import pyls_document_symbols
-from pyls.lsp import SymbolKind
-from pyls.workspace import Document
+from pygls import uris
+from pygls.plugins.symbols import pygls_document_symbols
+from pygls.lsp import SymbolKind
+from pygls.workspace import Document
 
 
 PY2 = sys.version[0] == '2'
@@ -50,7 +50,7 @@ def helper_check_symbols_all_scope(symbols):
 def test_symbols(config, workspace):
     doc = Document(DOC_URI, workspace, DOC)
     config.update({'plugins': {'jedi_symbols': {'all_scopes': False}}})
-    symbols = pyls_document_symbols(config, doc)
+    symbols = pygls_document_symbols(config, doc)
 
     # All four symbols (import sys, a, B, main)
     # y is not in the root scope, it shouldn't be returned
@@ -74,7 +74,7 @@ def test_symbols(config, workspace):
 
 def test_symbols_all_scopes(config, workspace):
     doc = Document(DOC_URI, workspace, DOC)
-    symbols = pyls_document_symbols(config, doc)
+    symbols = pygls_document_symbols(config, doc)
     helper_check_symbols_all_scope(symbols)
 
 
@@ -84,7 +84,7 @@ def test_symbols_all_scopes_with_jedi_environment(workspace):
 
     # Update config extra environment
     env_path = '/tmp/pyenv/bin/python'
-    settings = {'pyls': {'plugins': {'jedi': {'environment': env_path}}}}
+    settings = {'pygls': {'plugins': {'jedi': {'environment': env_path}}}}
     doc.update_config(settings)
-    symbols = pyls_document_symbols(doc._config, doc)
+    symbols = pygls_document_symbols(doc._config, doc)
     helper_check_symbols_all_scope(symbols)

@@ -1,8 +1,8 @@
 # Copyright 2017 Palantir Technologies, Inc.
 import pytest
-from pyls import uris
-from pyls.plugins import signature
-from pyls.workspace import Document
+from pygls import uris
+from pygls.plugins import signature
+from pygls.workspace import Document
 
 DOC_URI = uris.from_fs_path(__file__)
 DOC = """import sys
@@ -44,7 +44,7 @@ def test_no_signature(workspace):
     sig_position = {'line': 9, 'character': 0}
     doc = Document(DOC_URI, workspace, DOC)
 
-    sigs = signature.pyls_signature_help(doc, sig_position)['signatures']
+    sigs = signature.pygls_signature_help(doc, sig_position)['signatures']
     assert not sigs
 
 
@@ -53,7 +53,7 @@ def test_signature(workspace):
     sig_position = {'line': 10, 'character': 5}
     doc = Document(DOC_URI, workspace, DOC)
 
-    sig_info = signature.pyls_signature_help(doc, sig_position)
+    sig_info = signature.pygls_signature_help(doc, sig_position)
 
     sigs = sig_info['signatures']
     assert len(sigs) == 1
@@ -69,7 +69,7 @@ def test_multi_line_signature(workspace):
     sig_position = {'line': 17, 'character': 5}
     doc = Document(DOC_URI, workspace, MULTI_LINE_DOC)
 
-    sig_info = signature.pyls_signature_help(doc, sig_position)
+    sig_info = signature.pygls_signature_help(doc, sig_position)
 
     sigs = sig_info['signatures']
     assert len(sigs) == 1

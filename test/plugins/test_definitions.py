@@ -1,7 +1,7 @@
 # Copyright 2017 Palantir Technologies, Inc.
-from pyls import uris
-from pyls.plugins.definition import pyls_definitions
-from pyls.workspace import Document
+from pygls import uris
+from pygls.plugins.definition import pygls_definitions
+from pygls.workspace import Document
 
 
 DOC_URI = uris.from_fs_path(__file__)
@@ -31,7 +31,7 @@ def test_definitions(config, workspace):
     }
 
     doc = Document(DOC_URI, workspace, DOC)
-    assert [{'uri': DOC_URI, 'range': def_range}] == pyls_definitions(config, doc, cursor_pos)
+    assert [{'uri': DOC_URI, 'range': def_range}] == pygls_definitions(config, doc, cursor_pos)
 
 
 def test_builtin_definition(config, workspace):
@@ -40,7 +40,7 @@ def test_builtin_definition(config, workspace):
 
     # No go-to def for builtins
     doc = Document(DOC_URI, workspace, DOC)
-    assert not pyls_definitions(config, doc, cursor_pos)
+    assert not pygls_definitions(config, doc, cursor_pos)
 
 
 def test_assignment(config, workspace):
@@ -54,4 +54,4 @@ def test_assignment(config, workspace):
     }
 
     doc = Document(DOC_URI, workspace, DOC)
-    assert [{'uri': DOC_URI, 'range': def_range}] == pyls_definitions(config, doc, cursor_pos)
+    assert [{'uri': DOC_URI, 'range': def_range}] == pygls_definitions(config, doc, cursor_pos)

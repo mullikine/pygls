@@ -5,10 +5,10 @@ import multiprocessing
 import sys
 from threading import Thread
 
-from pyls_jsonrpc.exceptions import JsonRpcMethodNotFound
+from pygls_jsonrpc.exceptions import JsonRpcMethodNotFound
 import pytest
 
-from pyls.python_ls import start_io_lang_server, PythonLanguageServer
+from pygls.python_ls import start_io_lang_server, PythonLanguageServer
 
 CALL_TIMEOUT = 10
 PY2 = sys.version_info[0] == 2

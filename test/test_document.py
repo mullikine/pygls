@@ -1,6 +1,6 @@
 # Copyright 2017 Palantir Technologies, Inc.
 from test.fixtures import DOC_URI, DOC
-from pyls.workspace import Document
+from pygls.workspace import Document
 
 
 def test_document_props(doc):

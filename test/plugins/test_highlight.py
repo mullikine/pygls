@@ -1,7 +1,7 @@
 # Copyright 2017 Palantir Technologies, Inc.
-from pyls import lsp, uris
-from pyls.workspace import Document
-from pyls.plugins.highlight import pyls_document_highlight
+from pygls import lsp, uris
+from pygls.workspace import Document
+from pygls.plugins.highlight import pygls_document_highlight
 
 
 DOC_URI = uris.from_fs_path(__file__)
@@ -15,7 +15,7 @@ def test_highlight(workspace):
     cursor_pos = {'line': 1, 'character': 0}
 
     doc = Document(DOC_URI, workspace, DOC)
-    assert pyls_document_highlight(doc, cursor_pos) == [{
+    assert pygls_document_highlight(doc, cursor_pos) == [{
         'range': {
             'start': {'line': 0, 'character': 0},
             'end': {'line': 0, 'character': 1},
@@ -41,7 +41,7 @@ def test_sys_highlight(workspace):
     cursor_pos = {'line': 0, 'character': 8}
 
     doc = Document(DOC_URI, workspace, SYS_DOC)
-    assert pyls_document_highlight(doc, cursor_pos) == [{
+    assert pygls_document_highlight(doc, cursor_pos) == [{
         'range': {
             'start': {'line': 0, 'character': 7},
             'end': {'line': 0, 'character': 10}

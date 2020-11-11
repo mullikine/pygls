@@ -17,7 +17,7 @@ install_requires = [
         'ujson>=3.0.0 ; python_version>"3"']
 
 setup(
-    name='python-language-server',
+    name='glossary-language-server',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -30,7 +30,7 @@ setup(
     long_description=README,
 
     # The project's main homepage.
-    url='https://github.com/palantir/python-language-server',
+    url='https://github.com/mullikine/glossary-language-server',
 
     author='Palantir Technologies, Inc.',
 
@@ -83,29 +83,29 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'pyls = pyls.__main__:main',
+            'pygls = pygls.__main__:main',
         ],
-        'pyls': [
-            'autopep8 = pyls.plugins.autopep8_format',
-            'folding = pyls.plugins.folding',
-            'flake8 = pyls.plugins.flake8_lint',
-            'jedi_completion = pyls.plugins.jedi_completion',
-            'jedi_definition = pyls.plugins.definition',
-            'jedi_hover = pyls.plugins.hover',
-            'jedi_highlight = pyls.plugins.highlight',
-            'jedi_references = pyls.plugins.references',
-            'jedi_rename = pyls.plugins.jedi_rename',
-            'jedi_signature_help = pyls.plugins.signature',
-            'jedi_symbols = pyls.plugins.symbols',
-            'mccabe = pyls.plugins.mccabe_lint',
-            'preload = pyls.plugins.preload_imports',
-            'pycodestyle = pyls.plugins.pycodestyle_lint',
-            'pydocstyle = pyls.plugins.pydocstyle_lint',
-            'pyflakes = pyls.plugins.pyflakes_lint',
-            'pylint = pyls.plugins.pylint_lint',
-            'rope_completion = pyls.plugins.rope_completion',
-            'rope_rename = pyls.plugins.rope_rename',
-            'yapf = pyls.plugins.yapf_format'
+        'pygls': [
+            'autopep8 = pygls.plugins.autopep8_format',
+            'folding = pygls.plugins.folding',
+            'flake8 = pygls.plugins.flake8_lint',
+            'jedi_completion = pygls.plugins.jedi_completion',
+            'jedi_definition = pygls.plugins.definition',
+            'jedi_hover = pygls.plugins.hover',
+            'jedi_highlight = pygls.plugins.highlight',
+            'jedi_references = pygls.plugins.references',
+            'jedi_rename = pygls.plugins.jedi_rename',
+            'jedi_signature_help = pygls.plugins.signature',
+            'jedi_symbols = pygls.plugins.symbols',
+            'mccabe = pygls.plugins.mccabe_lint',
+            'preload = pygls.plugins.preload_imports',
+            'pycodestyle = pygls.plugins.pycodestyle_lint',
+            'pydocstyle = pygls.plugins.pydocstyle_lint',
+            'pyflakes = pygls.plugins.pyflakes_lint',
+            'pylint = pygls.plugins.pylint_lint',
+            'rope_completion = pygls.plugins.rope_completion',
+            'rope_rename = pygls.plugins.rope_rename',
+            'yapf = pygls.plugins.yapf_format'
         ]
     },
 )

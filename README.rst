@@ -1,17 +1,17 @@
 Python Language Server
 ======================
 
-.. image:: https://github.com/palantir/python-language-server/workflows/Linux%20tests/badge.svg
-    :target: https://github.com/palantir/python-language-server/actions?query=workflow%3A%22Linux+tests%22
+.. image:: https://github.com/mullikine/glossary-language-server/workflows/Linux%20tests/badge.svg
+    :target: https://github.com/mullikine/glossary-language-server/actions?query=workflow%3A%22Linux+tests%22
 
-.. image:: https://github.com/palantir/python-language-server/workflows/Mac%20tests/badge.svg
-    :target: https://github.com/palantir/python-language-server/actions?query=workflow%3A%22Mac+tests%22
+.. image:: https://github.com/mullikine/glossary-language-server/workflows/Mac%20tests/badge.svg
+    :target: https://github.com/mullikine/glossary-language-server/actions?query=workflow%3A%22Mac+tests%22
 
-.. image:: https://github.com/palantir/python-language-server/workflows/Windows%20tests/badge.svg
-    :target: https://github.com/palantir/python-language-server/actions?query=workflow%3A%22Windows+tests%22
+.. image:: https://github.com/mullikine/glossary-language-server/workflows/Windows%20tests/badge.svg
+    :target: https://github.com/mullikine/glossary-language-server/actions?query=workflow%3A%22Windows+tests%22
 
-.. image:: https://img.shields.io/github/license/palantir/python-language-server.svg
-     :target: https://github.com/palantir/python-language-server/blob/master/LICENSE
+.. image:: https://img.shields.io/github/license/mullikine/glossary-language-server.svg
+     :target: https://github.com/mullikine/glossary-language-server/blob/master/LICENSE
 
 A Python 2.7 and 3.5+ implementation of the `Language Server Protocol`_.
 
@@ -21,7 +21,7 @@ Installation
 The base language server requires Jedi_ to provide Completions, Definitions, Hover, References, Signature Help, and
 Symbols:
 
-``pip install python-language-server``
+``pip install glossary-language-server``
 
 If the respective dependencies are found, the following optional providers will be enabled:
 
@@ -35,11 +35,11 @@ If the respective dependencies are found, the following optional providers will 
 
 Optional providers can be installed using the `extras` syntax. To install YAPF_ formatting for example:
 
-``pip install 'python-language-server[yapf]'``
+``pip install 'glossary-language-server[yapf]'``
 
 All optional providers can be installed using:
 
-``pip install 'python-language-server[all]'``
+``pip install 'glossary-language-server[all]'``
 
 If you get an error similar to ``'install_requires' must be a string or list of strings`` then please upgrade setuptools before trying again. 
 
@@ -49,9 +49,9 @@ If you get an error similar to ``'install_requires' must be a string or list of 
 ~~~~~~~~~~~~~~~~~
 Installing these plugins will add extra functionality to the language server:
 
-* pyls-mypy_ Mypy type checking for Python 3
-* pyls-isort_ Isort import sort code formatting
-* pyls-black_ for code formatting using Black_
+* pygls-mypy_ Mypy type checking for Python 3
+* pygls-isort_ Isort import sort code formatting
+* pygls-black_ for code formatting using Black_
 
 Please see the above repositories for examples on how to write plugins for the Python Language Server. Please file an
 issue if you require assistance writing a plugin.
@@ -64,7 +64,7 @@ Configuration is loaded from zero or more configuration sources. Currently imple
 * pycodestyle: discovered in ~/.config/pycodestyle, setup.cfg, tox.ini and pycodestyle.cfg.
 * flake8: discovered in ~/.config/flake8, setup.cfg, tox.ini and flake8.cfg
 
-The default configuration source is pycodestyle. Change the `pyls.configurationSources` setting to `['flake8']` in
+The default configuration source is pycodestyle. Change the `pygls.configurationSources` setting to `['flake8']` in
 order to respect flake8 configuration instead.
 
 Overall configuration is computed first from user configuration (in home directory), overridden by configuration
@@ -72,7 +72,7 @@ passed in by the language client, and then overriden by configuration discovered
 
 To enable pydocstyle for linting docstrings add the following setting in your LSP configuration:
 ```
-"pyls.plugins.pydocstyle.enabled": true
+"pygls.plugins.pydocstyle.enabled": true
 ```
 
 See `vscode-client/package.json`_ for the full set of supported configuration options.
@@ -84,35 +84,35 @@ Language Server Features
 
 Auto Completion:
 
-.. image:: https://raw.githubusercontent.com/palantir/python-language-server/develop/resources/auto-complete.gif
+.. image:: https://raw.githubusercontent.com/mullikine/glossary-language-server/develop/resources/auto-complete.gif
 
 Code Linting with pycodestyle and pyflakes:
 
-.. image:: https://raw.githubusercontent.com/palantir/python-language-server/develop/resources/linting.gif
+.. image:: https://raw.githubusercontent.com/mullikine/glossary-language-server/develop/resources/linting.gif
 
 Signature Help:
 
-.. image:: https://raw.githubusercontent.com/palantir/python-language-server/develop/resources/signature-help.gif
+.. image:: https://raw.githubusercontent.com/mullikine/glossary-language-server/develop/resources/signature-help.gif
 
 Go to definition:
 
-.. image:: https://raw.githubusercontent.com/palantir/python-language-server/develop/resources/goto-definition.gif
+.. image:: https://raw.githubusercontent.com/mullikine/glossary-language-server/develop/resources/goto-definition.gif
 
 Hover:
 
-.. image:: https://raw.githubusercontent.com/palantir/python-language-server/develop/resources/hover.gif
+.. image:: https://raw.githubusercontent.com/mullikine/glossary-language-server/develop/resources/hover.gif
 
 Find References:
 
-.. image:: https://raw.githubusercontent.com/palantir/python-language-server/develop/resources/references.gif
+.. image:: https://raw.githubusercontent.com/mullikine/glossary-language-server/develop/resources/references.gif
 
 Document Symbols:
 
-.. image:: https://raw.githubusercontent.com/palantir/python-language-server/develop/resources/document-symbols.gif
+.. image:: https://raw.githubusercontent.com/mullikine/glossary-language-server/develop/resources/document-symbols.gif
 
 Document Formatting:
 
-.. image:: https://raw.githubusercontent.com/palantir/python-language-server/develop/resources/document-format.gif
+.. image:: https://raw.githubusercontent.com/mullikine/glossary-language-server/develop/resources/document-format.gif
 
 Development
 -----------
@@ -134,18 +134,18 @@ Install `VSCode <https://code.visualstudio.com/download>`_
     virtualenv env
     . env/bin/activate
 
-    # Install pyls
+    # Install pygls
     pip install .
 
     # Install the vscode-client extension
     cd vscode-client
     yarn install
 
-    # Run VSCode which is configured to use pyls
+    # Run VSCode which is configured to use pygls
     # See the bottom of vscode-client/src/extension.ts for info
     yarn run vscode -- $PWD/../
 
-Then to debug, click View -> Output and in the dropdown will be pyls.
+Then to debug, click View -> Output and in the dropdown will be pygls.
 To refresh VSCode, press `Cmd + r`
 
 License
@@ -162,7 +162,7 @@ This project is made available under the MIT License.
 .. _pydocstyle: https://github.com/PyCQA/pydocstyle
 .. _YAPF: https://github.com/google/yapf
 .. _autopep8: https://github.com/hhatto/autopep8
-.. _pyls-mypy: https://github.com/tomv564/pyls-mypy
-.. _pyls-isort: https://github.com/paradoxxxzero/pyls-isort
-.. _pyls-black: https://github.com/rupert/pyls-black
+.. _pygls-mypy: https://github.com/tomv564/pygls-mypy
+.. _pygls-isort: https://github.com/paradoxxxzero/pygls-isort
+.. _pygls-black: https://github.com/rupert/pygls-black
 .. _Black: https://github.com/ambv/black
