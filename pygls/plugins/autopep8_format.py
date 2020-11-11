@@ -1,4 +1,3 @@
-# Copyright 2018 mullikine
 import logging
 import pycodestyle
 from autopep8 import fix_code, continued_indentation as autopep8_c_i

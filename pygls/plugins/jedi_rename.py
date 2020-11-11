@@ -1,4 +1,3 @@
-# Copyright 2020 mullikine
 import logging
 
 from pygls import hookimpl, uris, _utils
