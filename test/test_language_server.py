@@ -5,7 +5,7 @@ import multiprocessing
 import sys
 from threading import Thread
 
-from pygls_jsonrpc.exceptions import JsonRpcMethodNotFound
+from pyls_jsonrpc.exceptions import JsonRpcMethodNotFound
 import pytest
 
 from pygls.glossary_ls import start_io_lang_server, GlossaryLanguageServer
