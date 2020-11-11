@@ -17,7 +17,7 @@
     ],
     "contributes": {
         "configuration": {
-            "title": "Python Language Server Configuration",
+            "title": "Glossary Language Server Configuration",
             "type": "object",
             "properties": {
                 "pygls.executable": {

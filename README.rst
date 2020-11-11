@@ -1,4 +1,4 @@
-Python Language Server
+Glossary Language Server
 ======================
 
 .. image:: https://github.com/mullikine/glossary-language-server/workflows/Linux%20tests/badge.svg
@@ -53,7 +53,7 @@ Installing these plugins will add extra functionality to the language server:
 * pygls-isort_ Isort import sort code formatting
 * pygls-black_ for code formatting using Black_
 
-Please see the above repositories for examples on how to write plugins for the Python Language Server. Please file an
+Please see the above repositories for examples on how to write plugins for the Glossary Language Server. Please file an
 issue if you require assistance writing a plugin.
 
 Configuration

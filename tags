@@ -1,0 +1,650 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Array	pygls/lsp.py	/^    Array = 18$/;"	v	class:SymbolKind
+Boolean	pygls/lsp.py	/^    Boolean = 17$/;"	v	class:SymbolKind
+CALL_TIMEOUT	test/test_language_server.py	/^CALL_TIMEOUT = 10$/;"	v
+CI	test/plugins/test_completion.py	/^CI = os.environ.get('CI')$/;"	v
+CI	test/plugins/test_symbols.py	/^CI = os.environ.get('CI')$/;"	v
+CONFIG_FILEs	pygls/glossary_ls.py	/^CONFIG_FILEs = ('pycodestyle.cfg', 'setup.cfg', 'tox.ini', '.flake8')$/;"	v
+CONFIG_KEY	pygls/config/flake8_conf.py	/^CONFIG_KEY = 'flake8'$/;"	v
+CONFIG_KEY	pygls/config/pycodestyle_conf.py	/^CONFIG_KEY = 'pycodestyle'$/;"	v
+Class	pygls/lsp.py	/^    Class = 5$/;"	v	class:SymbolKind
+Class	pygls/lsp.py	/^    Class = 7$/;"	v	class:CompletionItemKind
+Color	pygls/lsp.py	/^    Color = 16$/;"	v	class:CompletionItemKind
+CompletionItemKind	pygls/lsp.py	/^class CompletionItemKind(object):$/;"	c
+Config	pygls/config/config.py	/^class Config(object):$/;"	c
+ConfigSource	pygls/config/source.py	/^class ConfigSource(object):$/;"	c
+Constant	pygls/lsp.py	/^    Constant = 14$/;"	v	class:SymbolKind
+Constant	pygls/lsp.py	/^    Constant = 21$/;"	v	class:CompletionItemKind
+Constructor	pygls/lsp.py	/^    Constructor = 4$/;"	v	class:CompletionItemKind
+Constructor	pygls/lsp.py	/^    Constructor = 9$/;"	v	class:SymbolKind
+DEFAULT_CONFIG_SOURCES	pygls/config/config.py	/^DEFAULT_CONFIG_SOURCES = ['pycodestyle']$/;"	v
+DEFAULT_MATCH_DIR_RE	pygls/plugins/pydocstyle_lint.py	/^DEFAULT_MATCH_DIR_RE = pydocstyle.config.ConfigurationParser.DEFAULT_MATCH_DIR_RE$/;"	v
+DEFAULT_MATCH_RE	pygls/plugins/pydocstyle_lint.py	/^DEFAULT_MATCH_RE = pydocstyle.config.ConfigurationParser.DEFAULT_MATCH_RE$/;"	v
+DEFAULT_THRESHOLD	pygls/plugins/mccabe_lint.py	/^DEFAULT_THRESHOLD = 15$/;"	v
+DOC1_NAME	test/plugins/test_references.py	/^DOC1_NAME = 'test1.py'$/;"	v
+DOC2_NAME	test/plugins/test_references.py	/^DOC2_NAME = 'test2.py'$/;"	v
+DOC_NAME	test/plugins/test_jedi_rename.py	/^DOC_NAME = 'test1.py'$/;"	v
+DOC_NAME	test/plugins/test_rope_rename.py	/^DOC_NAME = "test1.py"$/;"	v
+DOC_NAME_EXTRA	test/plugins/test_jedi_rename.py	/^DOC_NAME_EXTRA = 'test2.py'$/;"	v
+DOC_REGEX	pygls/plugins/signature.py	/^DOC_REGEX = [SPHINX, EPYDOC, GOOGLE]$/;"	v
+DOC_URI	test/fixtures.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_autopep8_format.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_completion.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_definitions.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_flake8_lint.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_folding.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_highlight.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_hover.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_mccabe_lint.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_pycodestyle_lint.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_pydocstyle_lint.py	/^DOC_URI = uris.from_fs_path(os.path.join(os.path.dirname(__file__), "pydocstyle.py"))$/;"	v
+DOC_URI	test/plugins/test_pyflakes_lint.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_pylint_lint.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_signature.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_symbols.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/plugins/test_yapf_format.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DOC_URI	test/test_workspace.py	/^DOC_URI = uris.from_fs_path(__file__)$/;"	v
+DiagnosticSeverity	pygls/lsp.py	/^class DiagnosticSeverity(object):$/;"	c
+Document	pygls/workspace.py	/^class Document(object):$/;"	c
+DocumentHighlightKind	pygls/lsp.py	/^class DocumentHighlightKind(object):$/;"	c
+EPYDOC	pygls/plugins/signature.py	/^EPYDOC = re.compile(r"\\s*@param\\s+(?P<param>\\w+):\\s*(?P<doc>[^\\n]+)")$/;"	v
+Enum	pygls/lsp.py	/^    Enum = 10$/;"	v	class:SymbolKind
+Enum	pygls/lsp.py	/^    Enum = 13$/;"	v	class:CompletionItemKind
+EnumMember	pygls/lsp.py	/^    EnumMember = 20$/;"	v	class:CompletionItemKind
+Error	pygls/lsp.py	/^    Error = 1$/;"	v	class:DiagnosticSeverity
+Error	pygls/lsp.py	/^    Error = 1$/;"	v	class:MessageType
+Event	pygls/lsp.py	/^    Event = 23$/;"	v	class:CompletionItemKind
+FIX_IGNORES_RE	pygls/plugins/flake8_lint.py	/^FIX_IGNORES_RE = re.compile(r'([^a-zA-Z0-9_,]*;.*(\\W+||$))')$/;"	v
+FULL	pygls/lsp.py	/^    FULL = 1$/;"	v	class:TextDocumentSyncKind
+Field	pygls/lsp.py	/^    Field = 5$/;"	v	class:CompletionItemKind
+Field	pygls/lsp.py	/^    Field = 8$/;"	v	class:SymbolKind
+File	pygls/lsp.py	/^    File = 1$/;"	v	class:SymbolKind
+File	pygls/lsp.py	/^    File = 17$/;"	v	class:CompletionItemKind
+Flake8Config	pygls/config/flake8_conf.py	/^class Flake8Config(ConfigSource):$/;"	c
+Folder	pygls/lsp.py	/^    Folder = 19$/;"	v	class:CompletionItemKind
+Function	pygls/lsp.py	/^    Function = 12$/;"	v	class:SymbolKind
+Function	pygls/lsp.py	/^    Function = 3$/;"	v	class:CompletionItemKind
+GOOGLE	pygls/plugins/signature.py	/^GOOGLE = re.compile(r"\\s*(?P<param>\\w+).*:\\s*(?P<doc>[^\\n]+)")$/;"	v
+GlossaryLanguageServer	pygls/glossary_ls.py	/^class GlossaryLanguageServer(MethodDispatcher):$/;"	c
+HANDLERS	pygls/_version.py	/^HANDLERS = {}$/;"	v
+HANDLERS	versioneer.py	/^HANDLERS = {}$/;"	v
+Hint	pygls/lsp.py	/^    Hint = 4$/;"	v	class:DiagnosticSeverity
+IDENTATION_REGEX	pygls/plugins/folding.py	/^IDENTATION_REGEX = re.compile(r'(\\s+).+')$/;"	v
+INCREMENTAL	pygls/lsp.py	/^    INCREMENTAL = 2$/;"	v	class:TextDocumentSyncKind
+Info	pygls/lsp.py	/^    Info = 3$/;"	v	class:MessageType
+Information	pygls/lsp.py	/^    Information = 3$/;"	v	class:DiagnosticSeverity
+InsertTextFormat	pygls/lsp.py	/^class InsertTextFormat(object):$/;"	c
+Interface	pygls/lsp.py	/^    Interface = 11$/;"	v	class:SymbolKind
+Interface	pygls/lsp.py	/^    Interface = 8$/;"	v	class:CompletionItemKind
+JEDI_VERSION	pygls/_utils.py	/^JEDI_VERSION = jedi.__version__$/;"	v
+Keyword	pygls/lsp.py	/^    Keyword = 14$/;"	v	class:CompletionItemKind
+LINT_DEBOUNCE_S	pygls/glossary_ls.py	/^LINT_DEBOUNCE_S = 0.5  # 500 ms$/;"	v
+LINUX	test/plugins/test_completion.py	/^LINUX = sys.platform.startswith('linux')$/;"	v
+LINUX	test/plugins/test_symbols.py	/^LINUX = sys.platform.startswith('linux')$/;"	v
+LOCATION	test/plugins/test_completion.py	/^LOCATION = os.path.realpath($/;"	v
+LOG_FORMAT	pygls/__main__.py	/^LOG_FORMAT = "%(asctime)s UTC - %(levelname)s - %(name)s - %(message)s"$/;"	v
+LONG_VERSION_PY	pygls/_version.py	/^LONG_VERSION_PY = {}$/;"	v
+LONG_VERSION_PY	versioneer.py	/^LONG_VERSION_PY = {}$/;"	v
+LT_PY36	test/plugins/test_jedi_rename.py	/^LT_PY36 = sys.version_info.major < 3 or (sys.version_info.major == 3 and sys.version_info.minor < 6)$/;"	v
+Log	pygls/lsp.py	/^    Log = 4$/;"	v	class:MessageType
+MAX_WORKERS	pygls/glossary_ls.py	/^MAX_WORKERS = 64$/;"	v
+MODULES	pygls/plugins/preload_imports.py	/^MODULES = [$/;"	v
+M_APPLY_EDIT	pygls/workspace.py	/^    M_APPLY_EDIT = 'workspace\/applyEdit'$/;"	v	class:Workspace
+M_PUBLISH_DIAGNOSTICS	pygls/workspace.py	/^    M_PUBLISH_DIAGNOSTICS = 'textDocument\/publishDiagnostics'$/;"	v	class:Workspace
+M_SHOW_MESSAGE	pygls/workspace.py	/^    M_SHOW_MESSAGE = 'window\/showMessage'$/;"	v	class:Workspace
+MessageType	pygls/lsp.py	/^class MessageType(object):$/;"	c
+Method	pygls/lsp.py	/^    Method = 2$/;"	v	class:CompletionItemKind
+Method	pygls/lsp.py	/^    Method = 6$/;"	v	class:SymbolKind
+Module	pygls/lsp.py	/^    Module = 2$/;"	v	class:SymbolKind
+Module	pygls/lsp.py	/^    Module = 9$/;"	v	class:CompletionItemKind
+NONE	pygls/lsp.py	/^    NONE = 0$/;"	v	class:TextDocumentSyncKind
+Namespace	pygls/lsp.py	/^    Namespace = 3$/;"	v	class:SymbolKind
+NotThisMethod	pygls/_version.py	/^class NotThisMethod(Exception):$/;"	c
+NotThisMethod	versioneer.py	/^class NotThisMethod(Exception):$/;"	c
+Number	pygls/lsp.py	/^    Number = 16$/;"	v	class:SymbolKind
+OPTIONS	pygls/config/flake8_conf.py	/^OPTIONS = [$/;"	v
+OPTIONS	pygls/config/pycodestyle_conf.py	/^OPTIONS = [$/;"	v
+Operator	pygls/lsp.py	/^    Operator = 24$/;"	v	class:CompletionItemKind
+PARENT_PROCESS_WATCH_INTERVAL	pygls/glossary_ls.py	/^PARENT_PROCESS_WATCH_INTERVAL = 10  # 10 s$/;"	v
+PROCESS_QUERY_INFROMATION	pygls/_utils.py	/^    PROCESS_QUERY_INFROMATION = 0x1000$/;"	v
+PROJECT_CONFIGS	pygls/config/flake8_conf.py	/^PROJECT_CONFIGS = ['.flake8', 'setup.cfg', 'tox.ini']$/;"	v
+PROJECT_CONFIGS	pygls/config/pycodestyle_conf.py	/^PROJECT_CONFIGS = ['pycodestyle.cfg', 'setup.cfg', 'tox.ini']$/;"	v
+PYFLAKES_ERROR_MESSAGES	pygls/plugins/pyflakes_lint.py	/^PYFLAKES_ERROR_MESSAGES = ($/;"	v
+PYLS	pygls/__init__.py	/^PYLS = 'pygls'$/;"	v
+PYTHON_FILE_EXTENSIONS	pygls/glossary_ls.py	/^PYTHON_FILE_EXTENSIONS = ('.py', '.pyi')$/;"	v
+Package	pygls/lsp.py	/^    Package = 4$/;"	v	class:SymbolKind
+PlainText	pygls/lsp.py	/^    PlainText = 1$/;"	v	class:InsertTextFormat
+Property	pygls/lsp.py	/^    Property = 10$/;"	v	class:CompletionItemKind
+Property	pygls/lsp.py	/^    Property = 7$/;"	v	class:SymbolKind
+PyCodeStyleConfig	pygls/config/pycodestyle_conf.py	/^class PyCodeStyleConfig(ConfigSource):$/;"	c
+PyCodeStyleDiagnosticReport	pygls/plugins/pycodestyle_lint.py	/^class PyCodeStyleDiagnosticReport(pycodestyle.BaseReport):$/;"	c
+PyflakesDiagnosticReport	pygls/plugins/pyflakes_lint.py	/^class PyflakesDiagnosticReport(object):$/;"	c
+PylintLinter	pygls/plugins/pylint_lint.py	/^class PylintLinter(object):$/;"	c
+README	setup.py	/^README = open('README.rst', 'r').read()$/;"	v
+RE_DRIVE_LETTER_PATH	pygls/uris.py	/^RE_DRIVE_LETTER_PATH = re.compile(r'^\\\/[a-zA-Z]:')$/;"	v
+RE_END_WORD	pygls/workspace.py	/^RE_END_WORD = re.compile('^[A-Za-z_0-9]*')$/;"	v
+RE_START_WORD	pygls/workspace.py	/^RE_START_WORD = re.compile('[A-Za-z_0-9]*$')$/;"	v
+Read	pygls/lsp.py	/^    Read = 2$/;"	v	class:DocumentHighlightKind
+Reference	pygls/lsp.py	/^    Reference = 18$/;"	v	class:CompletionItemKind
+SKIP_NODES	pygls/plugins/folding.py	/^SKIP_NODES = (tree_nodes.Module, tree_nodes.IfStmt, tree_nodes.TryStmt)$/;"	v
+SPHINX	pygls/plugins/signature.py	/^SPHINX = re.compile(r"\\s*:param\\s+(?P<param>\\w+):\\s*(?P<doc>[^\\n]+)")$/;"	v
+Snippet	pygls/lsp.py	/^    Snippet = 15$/;"	v	class:CompletionItemKind
+Snippet	pygls/lsp.py	/^    Snippet = 2$/;"	v	class:InsertTextFormat
+String	pygls/lsp.py	/^    String = 15$/;"	v	class:SymbolKind
+Struct	pygls/lsp.py	/^    Struct = 22$/;"	v	class:CompletionItemKind
+SymbolKind	pygls/lsp.py	/^class SymbolKind(object):$/;"	c
+TEST_DOC_URI	test/plugins/test_pydocstyle_lint.py	/^TEST_DOC_URI = uris.from_fs_path(__file__)$/;"	v
+THRESHOLD	pygls/plugins/mccabe_lint.py	/^THRESHOLD = 'threshold'$/;"	v
+Text	pygls/lsp.py	/^    Text = 1$/;"	v	class:CompletionItemKind
+Text	pygls/lsp.py	/^    Text = 1$/;"	v	class:DocumentHighlightKind
+TextDocumentSyncKind	pygls/lsp.py	/^class TextDocumentSyncKind(object):$/;"	c
+TypeParameter	pygls/lsp.py	/^    TypeParameter = 25$/;"	v	class:CompletionItemKind
+USER_CONFIGS	pygls/config/pycodestyle_conf.py	/^USER_CONFIGS = [pycodestyle.USER_CONFIG] if pycodestyle.USER_CONFIG else []$/;"	v
+Unit	pygls/lsp.py	/^    Unit = 11$/;"	v	class:CompletionItemKind
+Value	pygls/lsp.py	/^    Value = 12$/;"	v	class:CompletionItemKind
+Variable	pygls/lsp.py	/^    Variable = 13$/;"	v	class:SymbolKind
+Variable	pygls/lsp.py	/^    Variable = 6$/;"	v	class:CompletionItemKind
+VersioneerBadRootError	versioneer.py	/^class VersioneerBadRootError(Exception):$/;"	c
+VersioneerConfig	pygls/_version.py	/^class VersioneerConfig:$/;"	c
+VersioneerConfig	versioneer.py	/^class VersioneerConfig:$/;"	c
+Warning	pygls/lsp.py	/^    Warning = 2$/;"	v	class:DiagnosticSeverity
+Warning	pygls/lsp.py	/^    Warning = 2$/;"	v	class:MessageType
+Workspace	pygls/workspace.py	/^class Workspace(object):$/;"	c
+Write	pygls/lsp.py	/^    Write = 3$/;"	v	class:DocumentHighlightKind
+_ClientServer	test/test_language_server.py	/^class _ClientServer(object):$/;"	c
+_ERRORS	pygls/plugins/jedi_completion.py	/^_ERRORS = ('error_node', )$/;"	v
+_IMPORTS	pygls/plugins/jedi_completion.py	/^_IMPORTS = ('import_name', 'import_from')$/;"	v
+_SYMBOL_KIND_MAP	pygls/plugins/symbols.py	/^_SYMBOL_KIND_MAP = {$/;"	v
+_StreamHandlerWrapper	pygls/glossary_ls.py	/^class _StreamHandlerWrapper(socketserver.StreamRequestHandler, object):$/;"	c
+_TYPE_MAP	pygls/plugins/jedi_completion.py	/^_TYPE_MAP = {$/;"	v
+__check_if_node_is_valid	pygls/plugins/folding.py	/^def __check_if_node_is_valid(node):$/;"	f	file:
+__compute_folding_ranges	pygls/plugins/folding.py	/^def __compute_folding_ranges(tree, lines):$/;"	f	file:
+__compute_folding_ranges_identation	pygls/plugins/folding.py	/^def __compute_folding_ranges_identation(text):$/;"	f	file:
+__compute_start_end_lines	pygls/plugins/folding.py	/^def __compute_start_end_lines(node, stack):$/;"	f	file:
+__empty_identation_stack	pygls/plugins/folding.py	/^def __empty_identation_stack(identation_stack, level_limits,$/;"	f	file:
+__getitem__	pygls/glossary_ls.py	/^    def __getitem__(self, item):$/;"	m	class:GlossaryLanguageServer	file:
+__handle_flow_nodes	pygls/plugins/folding.py	/^def __handle_flow_nodes(node, end_line, stack):$/;"	f	file:
+__handle_skip	pygls/plugins/folding.py	/^def __handle_skip(stack, skip):$/;"	f	file:
+__init__	pygls/config/config.py	/^    def __init__(self, root_uri, init_opts, process_id, capabilities):$/;"	m	class:Config
+__init__	pygls/config/source.py	/^    def __init__(self, root_path):$/;"	m	class:ConfigSource
+__init__	pygls/glossary_ls.py	/^    def __init__(self, rx, tx, check_parent_process=False):$/;"	m	class:GlossaryLanguageServer
+__init__	pygls/plugins/pycodestyle_lint.py	/^    def __init__(self, options):$/;"	m	class:PyCodeStyleDiagnosticReport
+__init__	pygls/plugins/pyflakes_lint.py	/^    def __init__(self, lines):$/;"	m	class:PyflakesDiagnosticReport
+__init__	pygls/workspace.py	/^    def __init__(self, root_uri, endpoint, config=None):$/;"	m	class:Workspace
+__init__	pygls/workspace.py	/^    def __init__(self, uri, workspace, source=None, version=None, local=True, extra_sys_path=None,$/;"	m	class:Document
+__init__	test/test_language_server.py	/^    def __init__(self, check_parent_process=False):$/;"	m	class:_ClientServer
+__match_identation_stack	pygls/plugins/folding.py	/^def __match_identation_stack(identation_stack, level, level_limits,$/;"	f	file:
+__merge_folding_ranges	pygls/plugins/folding.py	/^def __merge_folding_ranges(left, right):$/;"	f	file:
+__str__	pygls/workspace.py	/^    def __str__(self):$/;"	m	class:Document	file:
+__version__	pygls/__init__.py	/^__version__ = get_versions()['version']$/;"	v
+_autopep8_config	pygls/plugins/autopep8_format.py	/^def _autopep8_config(config, document=None):$/;"	f
+_binary_stdio	pygls/__main__.py	/^def _binary_stdio():$/;"	f
+_build_pylint_flags	pygls/plugins/pylint_lint.py	/^def _build_pylint_flags(settings):$/;"	f
+_configure_logger	pygls/__main__.py	/^def _configure_logger(verbose=0, log_config=None, log_file=None):$/;"	f
+_container	pygls/plugins/symbols.py	/^def _container(definition):$/;"	f
+_create_document	pygls/workspace.py	/^    def _create_document(self, doc_uri, source=None, version=None):$/;"	m	class:Workspace
+_detail	pygls/plugins/jedi_completion.py	/^def _detail(definition):$/;"	f
+_format	pygls/plugins/autopep8_format.py	/^def _format(config, document, line_range=None):$/;"	f
+_format	pygls/plugins/yapf_format.py	/^def _format(document, lines=None):$/;"	f
+_format_completion	pygls/plugins/jedi_completion.py	/^def _format_completion(d, include_params=True):$/;"	f
+_get_opt	pygls/config/source.py	/^def _get_opt(config, key, option, opt_type):$/;"	f
+_get_severity	pygls/plugins/pycodestyle_lint.py	/^def _get_severity(code):$/;"	f
+_hook	pygls/glossary_ls.py	/^    def _hook(self, hook_name, doc_uri=None, **kwargs):$/;"	m	class:GlossaryLanguageServer
+_include_def	pygls/plugins/symbols.py	/^def _include_def(definition):$/;"	f
+_kind	pygls/plugins/rope_completion.py	/^def _kind(d):$/;"	f
+_kind	pygls/plugins/symbols.py	/^def _kind(d):$/;"	f
+_label	pygls/plugins/jedi_completion.py	/^def _label(definition):$/;"	f
+_match_uri_to_workspace	pygls/glossary_ls.py	/^    def _match_uri_to_workspace(self, uri):$/;"	m	class:GlossaryLanguageServer
+_merge_dicts_	pygls/_utils.py	/^    def _merge_dicts_(a, b):$/;"	f	function:merge_dicts
+_normalize_win_path	pygls/uris.py	/^def _normalize_win_path(path):$/;"	f
+_not_internal_definition	pygls/plugins/definition.py	/^def _not_internal_definition(definition):$/;"	f
+_num_lines	pygls/plugins/jedi_rename.py	/^def _num_lines(file_contents):$/;"	f
+_num_lines	pygls/plugins/rope_rename.py	/^def _num_lines(resource):$/;"	f
+_param_docs	pygls/plugins/signature.py	/^def _param_docs(docstring, param_name):$/;"	f
+_parse_diagnostic	pygls/plugins/pydocstyle_lint.py	/^def _parse_diagnostic(document, error):$/;"	f
+_parse_list_opt	pygls/config/source.py	/^def _parse_list_opt(string):$/;"	f
+_parse_pylint_stdio_result	pygls/plugins/pylint_lint.py	/^def _parse_pylint_stdio_result(document, stdout):$/;"	f
+_patch_sys_argv	pygls/plugins/pydocstyle_lint.py	/^def _patch_sys_argv(arguments):$/;"	f
+_range	pygls/plugins/symbols.py	/^def _range(definition):$/;"	f
+_rope_project_builder	pygls/workspace.py	/^    def _rope_project_builder(self, rope_config):$/;"	m	class:Workspace
+_rope_resource	pygls/workspace.py	/^    def _rope_resource(self, rope_config):$/;"	m	class:Document
+_run_pylint_stdio	pygls/plugins/pylint_lint.py	/^def _run_pylint_stdio(pylint_executable, document, flags):$/;"	f
+_set_opt	pygls/config/source.py	/^def _set_opt(config_dict, path, value):$/;"	f
+_sort_text	pygls/plugins/jedi_completion.py	/^def _sort_text(definition):$/;"	f
+_sort_text	pygls/plugins/rope_completion.py	/^def _sort_text(definition):$/;"	f
+_tuple_range	pygls/plugins/symbols.py	/^def _tuple_range(definition):$/;"	f
+_update_disabled_plugins	pygls/config/config.py	/^    def _update_disabled_plugins(self):$/;"	m	class:Config
+_user_config_file	pygls/config/flake8_conf.py	/^    def _user_config_file(self):$/;"	m	class:Flake8Config
+add_arguments	pygls/__main__.py	/^def add_arguments(parser):$/;"	f
+apply_change	pygls/workspace.py	/^    def apply_change(self, change):$/;"	m	class:Document
+apply_edit	pygls/workspace.py	/^    def apply_edit(self, edit):$/;"	m	class:Workspace
+author	setup.py	/^    author='Palantir Technologies, Inc.',$/;"	v
+boolean_options	versioneer.py	/^        boolean_options = []$/;"	v	class:get_cmdclass.cmd_version
+build_args	pygls/plugins/flake8_lint.py	/^def build_args(options):$/;"	f
+build_args_stdio	pygls/plugins/pylint_lint.py	/^def build_args_stdio(settings):$/;"	f
+call_m	test/test_utils.py	/^    def call_m():$/;"	f	function:test_debounce
+call_m	test/test_utils.py	/^    def call_m(key):$/;"	f	function:test_debounce_keyed_by
+capabilities	pygls/config/config.py	/^    def capabilities(self):$/;"	m	class:Config
+capabilities	pygls/glossary_ls.py	/^    def capabilities(self):$/;"	m	class:GlossaryLanguageServer
+client_exited_server	test/test_language_server.py	/^def client_exited_server():$/;"	f
+client_server	test/test_language_server.py	/^def client_server():$/;"	f
+clip_column	pygls/_utils.py	/^def clip_column(column, lines, line_number):$/;"	f
+cmd	versioneer.py	/^    cmd = sys.argv[1]$/;"	v
+cmd_build_exe	versioneer.py	/^        class cmd_build_exe(_build_exe):$/;"	c	class:get_cmdclass.cmd_build_py
+cmd_build_py	versioneer.py	/^    class cmd_build_py(_build_py):$/;"	c	function:get_cmdclass
+cmd_py2exe	versioneer.py	/^        class cmd_py2exe(_py2exe):$/;"	c	class:get_cmdclass.cmd_build_py
+cmd_sdist	versioneer.py	/^    class cmd_sdist(_sdist):$/;"	c	function:get_cmdclass
+cmd_version	versioneer.py	/^    class cmd_version(Command):$/;"	c	function:get_cmdclass
+cmdclass	setup.py	/^    cmdclass=versioneer.get_cmdclass(),$/;"	v
+code_actions	pygls/glossary_ls.py	/^    def code_actions(self, doc_uri, range, context):$/;"	m	class:GlossaryLanguageServer
+code_lens	pygls/glossary_ls.py	/^    def code_lens(self, doc_uri):$/;"	m	class:GlossaryLanguageServer
+com_position	test/plugins/test_completion.py	/^    com_position = {'line': 1, 'character': 10}$/;"	v
+com_position	test/plugins/test_completion.py	/^    com_position = {'line': 1, 'character': 5}$/;"	v
+completions	pygls/glossary_ls.py	/^    def completions(self, doc_uri, position):$/;"	m	class:GlossaryLanguageServer
+completions	test/plugins/test_completion.py	/^    completions = pygls_jedi_completions(doc._config, doc, com_position)$/;"	v
+config	test/fixtures.py	/^def config(workspace):  # pylint: disable=redefined-outer-name$/;"	f
+create_file	test/fixtures.py	/^        def create_file(name, content):$/;"	f	function:temp_workspace_factory.fn
+debounce	pygls/_utils.py	/^def debounce(interval_s, keyed_by=None):$/;"	f
+debounced	pygls/_utils.py	/^        def debounced(*args, **kwargs):$/;"	f	function:debounce.wrapper
+decorate	pygls/_version.py	/^    def decorate(f):$/;"	f	function:register_vcs_handler
+decorate	versioneer.py	/^    def decorate(f):$/;"	f	function:register_vcs_handler
+definitions	pygls/glossary_ls.py	/^    def definitions(self, doc_uri, position):$/;"	m	class:GlossaryLanguageServer
+delegate	pygls/glossary_ls.py	/^    delegate = None$/;"	v	class:_StreamHandlerWrapper
+description	setup.py	/^    description='Glossary Language Server for the Language Server Protocol',$/;"	v
+description	versioneer.py	/^        description = "report generated version string"$/;"	v	class:get_cmdclass.cmd_version
+disabled_plugins	pygls/config/config.py	/^    def disabled_plugins(self):$/;"	m	class:Config
+do_setup	versioneer.py	/^def do_setup():$/;"	f
+do_vcs_install	versioneer.py	/^def do_vcs_install(manifest_in, versionfile_source, ipy):$/;"	f
+doc	test/fixtures.py	/^def doc(workspace):  # pylint: disable=redefined-outer-name$/;"	f
+doc	test/plugins/test_completion.py	/^    doc = Document(DOC_URI, workspace, doc_content)$/;"	v
+doc	test/plugins/test_completion.py	/^    doc = Document(doc_uri, workspace_other_root_path, doc_content)$/;"	v
+doc_path	test/plugins/test_completion.py	/^    doc_path = str(tmpdir) + os.path.sep + 'myfile.py'$/;"	v
+doc_uri	test/plugins/test_completion.py	/^    doc_uri = uris.from_fs_path(doc_path)$/;"	v
+document_symbols	pygls/glossary_ls.py	/^    def document_symbols(self, doc_uri):$/;"	m	class:GlossaryLanguageServer
+documents	pygls/workspace.py	/^    def documents(self):$/;"	m	class:Workspace
+entry_points	setup.py	/^    entry_points={$/;"	v
+error	pygls/plugins/pycodestyle_lint.py	/^    def error(self, line_number, offset, text, check):$/;"	m	class:PyCodeStyleDiagnosticReport
+errors	versioneer.py	/^        errors = do_setup()$/;"	v
+execute_command	pygls/glossary_ls.py	/^    def execute_command(self, command, arguments):$/;"	m	class:GlossaryLanguageServer
+extras_require	setup.py	/^    extras_require={$/;"	v
+finalize_options	versioneer.py	/^        def finalize_options(self):$/;"	m	class:get_cmdclass.cmd_version
+find_parents	pygls/_utils.py	/^def find_parents(root, path, names):$/;"	f
+find_parents	pygls/config/config.py	/^    def find_parents(self, path, names):$/;"	m	class:Config
+flake	pygls/plugins/pyflakes_lint.py	/^    def flake(self, message):$/;"	m	class:PyflakesDiagnosticReport
+flatten	pygls/glossary_ls.py	/^def flatten(list_of_lists):$/;"	f
+fn	test/fixtures.py	/^    def fn(files):$/;"	f	function:temp_workspace_factory
+folding	pygls/glossary_ls.py	/^    def folding(self, doc_uri):$/;"	m	class:GlossaryLanguageServer
+format_docstring	pygls/_utils.py	/^def format_docstring(contents):$/;"	f
+format_document	pygls/glossary_ls.py	/^    def format_document(self, doc_uri):$/;"	m	class:GlossaryLanguageServer
+format_range	pygls/glossary_ls.py	/^    def format_range(self, doc_uri, range):$/;"	m	class:GlossaryLanguageServer
+from_fs_path	pygls/uris.py	/^def from_fs_path(path):$/;"	f
+get	versioneer.py	/^    def get(parser, name):$/;"	f	function:get_config_from_root
+get_cmdclass	versioneer.py	/^def get_cmdclass():$/;"	f
+get_config	pygls/_version.py	/^def get_config():$/;"	f
+get_config_from_root	versioneer.py	/^def get_config_from_root(root):$/;"	f
+get_document	pygls/workspace.py	/^    def get_document(self, doc_uri):$/;"	m	class:Workspace
+get_enviroment	pygls/workspace.py	/^    def get_enviroment(self, environment_path=None, env_vars=None):$/;"	m	class:Document
+get_keywords	pygls/_version.py	/^def get_keywords():$/;"	f
+get_maybe_document	pygls/workspace.py	/^    def get_maybe_document(self, doc_uri):$/;"	m	class:Workspace
+get_root	versioneer.py	/^def get_root():$/;"	f
+get_version	versioneer.py	/^def get_version():$/;"	f
+get_versions	pygls/_version.py	/^def get_versions():$/;"	f
+get_versions	versioneer.py	/^def get_versions(verbose=False):$/;"	f
+git_get_keywords	pygls/_version.py	/^def git_get_keywords(versionfile_abs):$/;"	f
+git_get_keywords	versioneer.py	/^def git_get_keywords(versionfile_abs):$/;"	f
+git_pieces_from_vcs	pygls/_version.py	/^def git_pieces_from_vcs(tag_prefix, root, verbose, run_command=run_command):$/;"	f
+git_pieces_from_vcs	versioneer.py	/^def git_pieces_from_vcs(tag_prefix, root, verbose, run_command=run_command):$/;"	f
+git_versions_from_keywords	pygls/_version.py	/^def git_versions_from_keywords(keywords, tag_prefix, verbose):$/;"	f
+git_versions_from_keywords	versioneer.py	/^def git_versions_from_keywords(keywords, tag_prefix, verbose):$/;"	f
+handle	pygls/glossary_ls.py	/^    def handle(self):$/;"	m	class:_StreamHandlerWrapper
+helper_check_symbols_all_scope	test/plugins/test_symbols.py	/^def helper_check_symbols_all_scope(symbols):$/;"	f
+highlight	pygls/glossary_ls.py	/^    def highlight(self, doc_uri, position):$/;"	m	class:GlossaryLanguageServer
+hookimpl	pygls/__init__.py	/^hookimpl = pluggy.HookimplMarker(PYLS)$/;"	v
+hookspec	pygls/__init__.py	/^hookspec = pluggy.HookspecMarker(PYLS)$/;"	v
+hover	pygls/glossary_ls.py	/^    def hover(self, doc_uri, position):$/;"	m	class:GlossaryLanguageServer
+init_opts	pygls/config/config.py	/^    def init_opts(self):$/;"	m	class:Config
+initialize_options	versioneer.py	/^        def initialize_options(self):$/;"	m	class:get_cmdclass.cmd_version
+install_requires	setup.py	/^    install_requires=install_requires,$/;"	v
+install_requires	setup.py	/^install_requires = [$/;"	v
+is_exception_class	pygls/plugins/jedi_completion.py	/^def is_exception_class(name):$/;"	f
+is_local	pygls/workspace.py	/^    def is_local(self):$/;"	m	class:Workspace
+is_process_alive	pygls/_utils.py	/^    def is_process_alive(pid):$/;"	f
+is_valid	pygls/plugins/highlight.py	/^    def is_valid(definition):$/;"	f	function:pygls_document_highlight
+jedi_names	pygls/workspace.py	/^    def jedi_names(self, all_scopes=False, definitions=True, references=False):$/;"	m	class:Document
+jedi_script	pygls/workspace.py	/^    def jedi_script(self, position=None, use_document_path=False):$/;"	m	class:Document
+kernel32	pygls/_utils.py	/^    kernel32 = ctypes.windll.kernel32$/;"	v
+last_diags	pygls/plugins/pylint_lint.py	/^    last_diags = collections.defaultdict(list)$/;"	v	class:PylintLinter
+lines	pygls/workspace.py	/^    def lines(self):$/;"	m	class:Document
+lint	pygls/glossary_ls.py	/^    def lint(self, doc_uri, is_saved):$/;"	m	class:GlossaryLanguageServer
+lint	pygls/plugins/pylint_lint.py	/^    def lint(cls, document, is_saved, flags=''):$/;"	m	class:PylintLinter
+list_to_string	pygls/_utils.py	/^def list_to_string(value):$/;"	f
+local_to_document	pygls/plugins/highlight.py	/^    def local_to_document(definition):$/;"	f	function:pygls_document_highlight
+lock	pygls/workspace.py	/^def lock(method):$/;"	f
+log	pygls/_utils.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/config/config.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/config/flake8_conf.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/config/source.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/glossary_ls.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/autopep8_format.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/definition.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/flake8_lint.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/highlight.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/hover.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/jedi_completion.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/jedi_rename.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/mccabe_lint.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/preload_imports.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/pycodestyle_lint.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/pydocstyle_lint.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/pylint_lint.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/references.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/rope_completion.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/rope_rename.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/signature.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/symbols.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/plugins/yapf_format.py	/^log = logging.getLogger(__name__)$/;"	v
+log	pygls/workspace.py	/^log = logging.getLogger(__name__)$/;"	v
+long_description	setup.py	/^    long_description=README,$/;"	v
+m_exit	pygls/glossary_ls.py	/^    def m_exit(self, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_initialize	pygls/glossary_ls.py	/^    def m_initialize(self, processId=None, rootUri=None, rootPath=None, initializationOptions=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_initialized	pygls/glossary_ls.py	/^    def m_initialized(self, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_shutdown	pygls/glossary_ls.py	/^    def m_shutdown(self, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__code_action	pygls/glossary_ls.py	/^    def m_text_document__code_action(self, textDocument=None, range=None, context=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__code_lens	pygls/glossary_ls.py	/^    def m_text_document__code_lens(self, textDocument=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__completion	pygls/glossary_ls.py	/^    def m_text_document__completion(self, textDocument=None, position=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__definition	pygls/glossary_ls.py	/^    def m_text_document__definition(self, textDocument=None, position=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__did_change	pygls/glossary_ls.py	/^    def m_text_document__did_change(self, contentChanges=None, textDocument=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__did_close	pygls/glossary_ls.py	/^    def m_text_document__did_close(self, textDocument=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__did_open	pygls/glossary_ls.py	/^    def m_text_document__did_open(self, textDocument=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__did_save	pygls/glossary_ls.py	/^    def m_text_document__did_save(self, textDocument=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__document_highlight	pygls/glossary_ls.py	/^    def m_text_document__document_highlight(self, textDocument=None, position=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__document_symbol	pygls/glossary_ls.py	/^    def m_text_document__document_symbol(self, textDocument=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__folding_range	pygls/glossary_ls.py	/^    def m_text_document__folding_range(self, textDocument=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__formatting	pygls/glossary_ls.py	/^    def m_text_document__formatting(self, textDocument=None, _options=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__hover	pygls/glossary_ls.py	/^    def m_text_document__hover(self, textDocument=None, position=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__range_formatting	pygls/glossary_ls.py	/^    def m_text_document__range_formatting(self, textDocument=None, range=None, _options=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__references	pygls/glossary_ls.py	/^    def m_text_document__references(self, textDocument=None, position=None, context=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__rename	pygls/glossary_ls.py	/^    def m_text_document__rename(self, textDocument=None, position=None, newName=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_text_document__signature_help	pygls/glossary_ls.py	/^    def m_text_document__signature_help(self, textDocument=None, position=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_workspace__did_change_configuration	pygls/glossary_ls.py	/^    def m_workspace__did_change_configuration(self, settings=None):$/;"	m	class:GlossaryLanguageServer
+m_workspace__did_change_watched_files	pygls/glossary_ls.py	/^    def m_workspace__did_change_watched_files(self, changes=None, **_kwargs):$/;"	m	class:GlossaryLanguageServer
+m_workspace__did_change_workspace_folders	pygls/glossary_ls.py	/^    def m_workspace__did_change_workspace_folders(self, event=None, **_kwargs):  # pylint: disable=too-many-locals$/;"	m	class:GlossaryLanguageServer
+m_workspace__execute_command	pygls/glossary_ls.py	/^    def m_workspace__execute_command(self, command=None, arguments=None):$/;"	m	class:GlossaryLanguageServer
+main	pygls/__main__.py	/^def main():$/;"	f
+make_release_tree	versioneer.py	/^        def make_release_tree(self, base_dir, files):$/;"	m	class:get_cmdclass.cmd_sdist
+match_uri_to_workspace	pygls/_utils.py	/^def match_uri_to_workspace(uri, workspaces):$/;"	f
+merge	pygls/glossary_ls.py	/^def merge(list_of_dicts):$/;"	f
+merge_dicts	pygls/_utils.py	/^def merge_dicts(dict_a, dict_b):$/;"	f
+name	setup.py	/^    name='glossary-language-server',$/;"	v
+offset_at_position	pygls/workspace.py	/^    def offset_at_position(self, position):$/;"	m	class:Document
+packages	setup.py	/^    packages=find_packages(exclude=['contrib', 'docs', 'test', 'test.*']),$/;"	v
+parse_config	pygls/config/source.py	/^    def parse_config(config, key, options):$/;"	m	class:ConfigSource
+parse_stdout	pygls/plugins/flake8_lint.py	/^def parse_stdout(document, stdout):$/;"	f
+path_as_uri	test/test_workspace.py	/^def path_as_uri(path):$/;"	f
+path_to_dot_name	pygls/_utils.py	/^def path_to_dot_name(path):$/;"	f
+plugin_manager	pygls/config/config.py	/^    def plugin_manager(self):$/;"	m	class:Config
+plugin_settings	pygls/config/config.py	/^    def plugin_settings(self, plugin, document_path=None):$/;"	m	class:Config
+plus_or_dot	pygls/_version.py	/^def plus_or_dot(pieces):$/;"	f
+plus_or_dot	versioneer.py	/^def plus_or_dot(pieces):$/;"	f
+position_to_jedi_linecolumn	pygls/_utils.py	/^def position_to_jedi_linecolumn(document, position):$/;"	f
+process_id	pygls/config/config.py	/^    def process_id(self):$/;"	m	class:Config
+project_config	pygls/config/flake8_conf.py	/^    def project_config(self, document_path):$/;"	m	class:Flake8Config
+project_config	pygls/config/pycodestyle_conf.py	/^    def project_config(self, document_path):$/;"	m	class:PyCodeStyleConfig
+project_config	pygls/config/source.py	/^    def project_config(self, document_path):$/;"	m	class:ConfigSource
+publish_diagnostics	pygls/workspace.py	/^    def publish_diagnostics(self, doc_uri, diagnostics):$/;"	m	class:Workspace
+put_document	pygls/workspace.py	/^    def put_document(self, doc_uri, source, version=None):$/;"	m	class:Workspace
+py2_only	test/__init__.py	/^py2_only = pytest.mark.skipif(IS_PY3, reason="Python2 only")$/;"	v
+py3_only	test/__init__.py	/^py3_only = pytest.mark.skipif(not IS_PY3, reason="Python3 only")$/;"	v
+pydocstyle_logger	pygls/plugins/pydocstyle_lint.py	/^pydocstyle_logger = logging.getLogger(pydocstyle.utils.__name__)$/;"	v
+pygls	test/fixtures.py	/^def pygls(tmpdir):$/;"	f
+pygls_code_actions	pygls/hookspecs.py	/^def pygls_code_actions(config, workspace, document, range, context):$/;"	f
+pygls_code_lens	pygls/hookspecs.py	/^def pygls_code_lens(config, workspace, document):$/;"	f
+pygls_commands	pygls/hookspecs.py	/^def pygls_commands(config, workspace):$/;"	f
+pygls_completions	pygls/hookspecs.py	/^def pygls_completions(config, workspace, document, position):$/;"	f
+pygls_completions	pygls/plugins/jedi_completion.py	/^def pygls_completions(config, document, position):$/;"	f
+pygls_completions	pygls/plugins/rope_completion.py	/^def pygls_completions(config, workspace, document, position):$/;"	f
+pygls_definitions	pygls/hookspecs.py	/^def pygls_definitions(config, workspace, document, position):$/;"	f
+pygls_definitions	pygls/plugins/definition.py	/^def pygls_definitions(config, document, position):$/;"	f
+pygls_dispatchers	pygls/hookspecs.py	/^def pygls_dispatchers(config, workspace):$/;"	f
+pygls_document_did_open	pygls/hookspecs.py	/^def pygls_document_did_open(config, workspace, document):$/;"	f
+pygls_document_did_save	pygls/hookspecs.py	/^def pygls_document_did_save(config, workspace, document):$/;"	f
+pygls_document_highlight	pygls/hookspecs.py	/^def pygls_document_highlight(config, workspace, document, position):$/;"	f
+pygls_document_highlight	pygls/plugins/highlight.py	/^def pygls_document_highlight(document, position):$/;"	f
+pygls_document_symbols	pygls/hookspecs.py	/^def pygls_document_symbols(config, workspace, document):$/;"	f
+pygls_document_symbols	pygls/plugins/symbols.py	/^def pygls_document_symbols(config, document):$/;"	f
+pygls_execute_command	pygls/hookspecs.py	/^def pygls_execute_command(config, workspace, command, arguments):$/;"	f
+pygls_experimental_capabilities	pygls/hookspecs.py	/^def pygls_experimental_capabilities(config, workspace):$/;"	f
+pygls_folding_range	pygls/hookspecs.py	/^def pygls_folding_range(config, workspace, document):$/;"	f
+pygls_folding_range	pygls/plugins/folding.py	/^def pygls_folding_range(document):$/;"	f
+pygls_format_document	pygls/hookspecs.py	/^def pygls_format_document(config, workspace, document):$/;"	f
+pygls_format_document	pygls/plugins/autopep8_format.py	/^def pygls_format_document(config, document):$/;"	f
+pygls_format_document	pygls/plugins/yapf_format.py	/^def pygls_format_document(document):$/;"	f
+pygls_format_range	pygls/hookspecs.py	/^def pygls_format_range(config, workspace, document, range):$/;"	f
+pygls_format_range	pygls/plugins/autopep8_format.py	/^def pygls_format_range(config, document, range):  # pylint: disable=redefined-builtin$/;"	f
+pygls_format_range	pygls/plugins/yapf_format.py	/^def pygls_format_range(document, range):  # pylint: disable=redefined-builtin$/;"	f
+pygls_hover	pygls/hookspecs.py	/^def pygls_hover(config, workspace, document, position):$/;"	f
+pygls_hover	pygls/plugins/hover.py	/^def pygls_hover(document, position):$/;"	f
+pygls_initialize	pygls/hookspecs.py	/^def pygls_initialize(config, workspace):$/;"	f
+pygls_initialize	pygls/plugins/preload_imports.py	/^def pygls_initialize(config):$/;"	f
+pygls_initialized	pygls/hookspecs.py	/^def pygls_initialized():$/;"	f
+pygls_lint	pygls/hookspecs.py	/^def pygls_lint(config, workspace, document, is_saved):$/;"	f
+pygls_lint	pygls/plugins/flake8_lint.py	/^def pygls_lint(workspace, document):$/;"	f
+pygls_lint	pygls/plugins/mccabe_lint.py	/^def pygls_lint(config, document):$/;"	f
+pygls_lint	pygls/plugins/pycodestyle_lint.py	/^def pygls_lint(workspace, document):$/;"	f
+pygls_lint	pygls/plugins/pydocstyle_lint.py	/^def pygls_lint(config, document):$/;"	f
+pygls_lint	pygls/plugins/pyflakes_lint.py	/^def pygls_lint(document):$/;"	f
+pygls_lint	pygls/plugins/pylint_lint.py	/^def pygls_lint(config, document, is_saved):$/;"	f
+pygls_references	pygls/hookspecs.py	/^def pygls_references(config, workspace, document, position, exclude_declaration):$/;"	f
+pygls_references	pygls/plugins/references.py	/^def pygls_references(document, position, exclude_declaration=False):$/;"	f
+pygls_rename	pygls/hookspecs.py	/^def pygls_rename(config, workspace, document, position, new_name):$/;"	f
+pygls_rename	pygls/plugins/jedi_rename.py	/^def pygls_rename(config, workspace, document, position, new_name):  # pylint: disable=unused-argument$/;"	f
+pygls_rename	pygls/plugins/rope_rename.py	/^def pygls_rename(config, workspace, document, position, new_name):$/;"	f
+pygls_settings	pygls/hookspecs.py	/^def pygls_settings(config):$/;"	f
+pygls_settings	pygls/plugins/flake8_lint.py	/^def pygls_settings():$/;"	f
+pygls_settings	pygls/plugins/preload_imports.py	/^def pygls_settings():$/;"	f
+pygls_settings	pygls/plugins/pydocstyle_lint.py	/^def pygls_settings():$/;"	f
+pygls_settings	pygls/plugins/pylint_lint.py	/^def pygls_settings():$/;"	f
+pygls_settings	pygls/plugins/rope_completion.py	/^def pygls_settings():$/;"	f
+pygls_settings	pygls/plugins/rope_rename.py	/^def pygls_settings():$/;"	f
+pygls_signature_help	pygls/hookspecs.py	/^def pygls_signature_help(config, workspace, document, position):$/;"	f
+pygls_signature_help	pygls/plugins/signature.py	/^def pygls_signature_help(document, position):$/;"	f
+pylint_lint_stdin	pygls/plugins/pylint_lint.py	/^def pylint_lint_stdin(pylint_executable, document, flags):$/;"	f
+pytest_plugins	test/conftest.py	/^pytest_plugins = [$/;"	v
+read_config_from_files	pygls/config/source.py	/^    def read_config_from_files(files):$/;"	m	class:ConfigSource
+reason	test/plugins/test_completion.py	/^                    reason="Test in Python 3 and not on CIs on Linux because wheels don't work on them.")$/;"	v
+references	pygls/glossary_ls.py	/^    def references(self, doc_uri, position, exclude_declaration):$/;"	m	class:GlossaryLanguageServer
+register_vcs_handler	pygls/_version.py	/^def register_vcs_handler(vcs, method):  # decorator$/;"	f
+register_vcs_handler	versioneer.py	/^def register_vcs_handler(vcs, method):  # decorator$/;"	f
+rename	pygls/glossary_ls.py	/^    def rename(self, doc_uri, position, new_name):$/;"	m	class:GlossaryLanguageServer
+render	pygls/_version.py	/^def render(pieces, style):$/;"	f
+render	versioneer.py	/^def render(pieces, style):$/;"	f
+render_git_describe	pygls/_version.py	/^def render_git_describe(pieces):$/;"	f
+render_git_describe	versioneer.py	/^def render_git_describe(pieces):$/;"	f
+render_git_describe_long	pygls/_version.py	/^def render_git_describe_long(pieces):$/;"	f
+render_git_describe_long	versioneer.py	/^def render_git_describe_long(pieces):$/;"	f
+render_pep440	pygls/_version.py	/^def render_pep440(pieces):$/;"	f
+render_pep440	versioneer.py	/^def render_pep440(pieces):$/;"	f
+render_pep440_old	pygls/_version.py	/^def render_pep440_old(pieces):$/;"	f
+render_pep440_old	versioneer.py	/^def render_pep440_old(pieces):$/;"	f
+render_pep440_post	pygls/_version.py	/^def render_pep440_post(pieces):$/;"	f
+render_pep440_post	versioneer.py	/^def render_pep440_post(pieces):$/;"	f
+render_pep440_pre	pygls/_version.py	/^def render_pep440_pre(pieces):$/;"	f
+render_pep440_pre	versioneer.py	/^def render_pep440_pre(pieces):$/;"	f
+rm_document	pygls/workspace.py	/^    def rm_document(self, doc_uri):$/;"	m	class:Workspace
+root_path	pygls/workspace.py	/^    def root_path(self):$/;"	m	class:Workspace
+root_uri	pygls/config/config.py	/^    def root_uri(self):$/;"	m	class:Config
+root_uri	pygls/workspace.py	/^    def root_uri(self):$/;"	m	class:Workspace
+run	pygls/_utils.py	/^            def run():$/;"	f	function:debounce.wrapper.debounced
+run	versioneer.py	/^            def run(self):$/;"	m	class:get_cmdclass.cmd_build_py.cmd_build_exe
+run	versioneer.py	/^            def run(self):$/;"	m	class:get_cmdclass.cmd_build_py.cmd_py2exe
+run	versioneer.py	/^        def run(self):$/;"	m	class:get_cmdclass.cmd_build_py
+run	versioneer.py	/^        def run(self):$/;"	m	class:get_cmdclass.cmd_sdist
+run	versioneer.py	/^        def run(self):$/;"	m	class:get_cmdclass.cmd_version
+run_command	pygls/_version.py	/^def run_command(commands, args, cwd=None, verbose=False, hide_stderr=False,$/;"	f
+run_command	versioneer.py	/^def run_command(commands, args, cwd=None, verbose=False, hide_stderr=False,$/;"	f
+run_flake8	pygls/plugins/flake8_lint.py	/^def run_flake8(flake8_executable, args, document):$/;"	f
+scan_setup_py	versioneer.py	/^def scan_setup_py():$/;"	f
+settings	pygls/config/config.py	/^    def settings(self, document_path=None):$/;"	m	class:Config
+settings	test/plugins/test_completion.py	/^    settings = {'pygls': {'plugins': {'jedi': {'extra_paths': extra_paths}}}}$/;"	v
+setup	pygls/glossary_ls.py	/^    def setup(self):$/;"	m	class:_StreamHandlerWrapper
+show_message	pygls/workspace.py	/^    def show_message(self, message, msg_type=lsp.MessageType.Info):$/;"	m	class:Workspace
+shutdown_server	pygls/glossary_ls.py	/^    def shutdown_server(check_parent_process, *args):$/;"	f	function:start_tcp_lang_server
+signature_help	pygls/glossary_ls.py	/^    def signature_help(self, doc_uri, position):$/;"	m	class:GlossaryLanguageServer
+source	pygls/workspace.py	/^    def source(self):$/;"	m	class:Document
+source_roots	pygls/workspace.py	/^    def source_roots(self, document_path):$/;"	m	class:Workspace
+start	pygls/glossary_ls.py	/^    def start(self):$/;"	m	class:GlossaryLanguageServer
+start_client	test/test_language_server.py	/^def start_client(client):$/;"	f
+start_io_lang_server	pygls/glossary_ls.py	/^def start_io_lang_server(rfile, wfile, check_parent_process, handler_class):$/;"	f
+start_tcp_lang_server	pygls/glossary_ls.py	/^def start_tcp_lang_server(bind_addr, port, check_parent_process, handler_class):$/;"	f
+sym	test/plugins/test_symbols.py	/^    def sym(name):$/;"	f	function:helper_check_symbols_all_scope
+sym	test/plugins/test_symbols.py	/^    def sym(name):$/;"	f	function:test_symbols
+syntaxError	pygls/plugins/pyflakes_lint.py	/^    def syntaxError(self, _filename, msg, lineno, offset, text):$/;"	m	class:PyflakesDiagnosticReport
+sys_path	pygls/workspace.py	/^    def sys_path(self, environment_path=None, env_vars=None):$/;"	m	class:Document
+temp_document	test/plugins/test_flake8_lint.py	/^def temp_document(doc_text, workspace):$/;"	f
+temp_document	test/plugins/test_pylint_lint.py	/^def temp_document(doc_text, workspace):$/;"	f
+temp_workspace_factory	test/fixtures.py	/^def temp_workspace_factory(workspace):  # pylint: disable=redefined-outer-name$/;"	f
+test_assignment	test/plugins/test_definitions.py	/^def test_assignment(config, workspace):$/;"	f
+test_builtin_definition	test/plugins/test_definitions.py	/^def test_builtin_definition(config, workspace):$/;"	f
+test_clip_column	test/test_utils.py	/^def test_clip_column():$/;"	f
+test_completion_with_class_objects	test/plugins/test_completion.py	/^def test_completion_with_class_objects(config, workspace):$/;"	f
+test_config_file	test/plugins/test_yapf_format.py	/^def test_config_file(tmpdir, workspace):$/;"	f
+test_debounce	test/test_utils.py	/^def test_debounce():$/;"	f
+test_debounce_keyed_by	test/test_utils.py	/^def test_debounce_keyed_by():$/;"	f
+test_definitions	test/plugins/test_definitions.py	/^def test_definitions(config, workspace):$/;"	f
+test_docstring_params	test/plugins/test_signature.py	/^def test_docstring_params(regex, doc):$/;"	f
+test_document_empty_edit	test/test_document.py	/^def test_document_empty_edit(workspace):$/;"	f
+test_document_end_of_file_edit	test/test_document.py	/^def test_document_end_of_file_edit(workspace):$/;"	f
+test_document_line_edit	test/test_document.py	/^def test_document_line_edit(workspace):$/;"	f
+test_document_lines	test/test_document.py	/^def test_document_lines(doc):$/;"	f
+test_document_multiline_edit	test/test_document.py	/^def test_document_multiline_edit(workspace):$/;"	f
+test_document_path_completions	test/plugins/test_completion.py	/^def test_document_path_completions(tmpdir, workspace_other_root_path):$/;"	f
+test_document_props	test/test_document.py	/^def test_document_props(doc):$/;"	f
+test_document_source_unicode	test/test_document.py	/^def test_document_source_unicode(workspace):$/;"	f
+test_exit_with_parent_process_died	test/test_language_server.py	/^def test_exit_with_parent_process_died(client_exited_server):  # pylint: disable=redefined-outer-name$/;"	f
+test_find_parents	test/test_utils.py	/^def test_find_parents(tmpdir):$/;"	f
+test_flake8_config_param	test/plugins/test_flake8_lint.py	/^def test_flake8_config_param(workspace):$/;"	f
+test_flake8_executable_param	test/plugins/test_flake8_lint.py	/^def test_flake8_executable_param(workspace):$/;"	f
+test_flake8_lint	test/plugins/test_flake8_lint.py	/^def test_flake8_lint(workspace):$/;"	f
+test_flake8_unsaved	test/plugins/test_flake8_lint.py	/^def test_flake8_unsaved(workspace):$/;"	f
+test_folding	test/plugins/test_folding.py	/^def test_folding(workspace):$/;"	f
+test_folding_syntax_error	test/plugins/test_folding.py	/^def test_folding_syntax_error(workspace):$/;"	f
+test_format	test/plugins/test_autopep8_format.py	/^def test_format(config, workspace):$/;"	f
+test_format	test/plugins/test_yapf_format.py	/^def test_format(workspace):$/;"	f
+test_from_fs_path	test/test_uris.py	/^def test_from_fs_path(path, uri):$/;"	f
+test_get_document	test/test_workspace.py	/^def test_get_document(pygls):$/;"	f
+test_get_missing_document	test/test_workspace.py	/^def test_get_missing_document(tmpdir, pygls):$/;"	f
+test_hanging_indentation	test/plugins/test_autopep8_format.py	/^def test_hanging_indentation(config, workspace):$/;"	f
+test_highlight	test/plugins/test_highlight.py	/^def test_highlight(workspace):$/;"	f
+test_hover	test/plugins/test_hover.py	/^def test_hover(workspace):$/;"	f
+test_initialize	test/test_language_server.py	/^def test_initialize(client_server):  # pylint: disable=redefined-outer-name$/;"	f
+test_jedi_completion	test/plugins/test_completion.py	/^def test_jedi_completion(config, workspace):$/;"	f
+test_jedi_completion_environment	test/plugins/test_completion.py	/^def test_jedi_completion_environment(workspace):$/;"	f
+test_jedi_completion_extra_paths	test/plugins/test_completion.py	/^def test_jedi_completion_extra_paths(tmpdir, workspace):$/;"	f
+test_jedi_completion_ordering	test/plugins/test_completion.py	/^def test_jedi_completion_ordering(config, workspace):$/;"	f
+test_jedi_completion_with_fuzzy_enabled	test/plugins/test_completion.py	/^def test_jedi_completion_with_fuzzy_enabled(config, workspace):$/;"	f
+test_jedi_method_completion	test/plugins/test_completion.py	/^def test_jedi_method_completion(config, workspace):$/;"	f
+test_jedi_property_completion	test/plugins/test_completion.py	/^def test_jedi_property_completion(config, workspace):$/;"	f
+test_jedi_rename	test/plugins/test_jedi_rename.py	/^def test_jedi_rename(tmp_workspace, config):  # pylint: disable=redefined-outer-name$/;"	f
+test_lint_caching	test/plugins/test_pylint_lint.py	/^def test_lint_caching(workspace):$/;"	f
+test_lint_free_pylint	test/plugins/test_pylint_lint.py	/^def test_lint_free_pylint(config, workspace):$/;"	f
+test_list_to_string	test/test_utils.py	/^def test_list_to_string():$/;"	f
+test_local	test/test_workspace.py	/^def test_local(pygls):$/;"	f
+test_matplotlib_completions	test/plugins/test_completion.py	/^def test_matplotlib_completions(config, workspace):$/;"	f
+test_mccabe	test/plugins/test_mccabe_lint.py	/^def test_mccabe(config, workspace):$/;"	f
+test_mccabe_syntax_error	test/plugins/test_mccabe_lint.py	/^def test_mccabe_syntax_error(config, workspace):$/;"	f
+test_merge_dicts	test/test_utils.py	/^def test_merge_dicts():$/;"	f
+test_missing_message	test/test_language_server.py	/^def test_missing_message(client_server):  # pylint: disable=redefined-outer-name$/;"	f
+test_multi_line_signature	test/plugins/test_signature.py	/^def test_multi_line_signature(workspace):$/;"	f
+test_multiline_import_snippets	test/plugins/test_completion.py	/^def test_multiline_import_snippets(config, workspace):$/;"	f
+test_multiline_snippets	test/plugins/test_completion.py	/^def test_multiline_snippets(config, workspace):$/;"	f
+test_multiple_workspaces	test/test_workspace.py	/^def test_multiple_workspaces(tmpdir, pygls):$/;"	f
+test_multiple_workspaces_wrong_removed_uri	test/test_workspace.py	/^def test_multiple_workspaces_wrong_removed_uri(pygls, tmpdir):$/;"	f
+test_multistatement_snippet	test/plugins/test_completion.py	/^def test_multistatement_snippet(config, workspace):$/;"	f
+test_no_change	test/plugins/test_autopep8_format.py	/^def test_no_change(config, workspace):$/;"	f
+test_no_change	test/plugins/test_yapf_format.py	/^def test_no_change(workspace):$/;"	f
+test_no_signature	test/plugins/test_signature.py	/^def test_no_signature(workspace):$/;"	f
+test_non_root_project	test/test_workspace.py	/^def test_non_root_project(pygls, metafiles):$/;"	f
+test_not_exit_without_check_parent_process_flag	test/test_language_server.py	/^def test_not_exit_without_check_parent_process_flag(client_server):  # pylint: disable=redefined-outer-name$/;"	f
+test_numpy_completions	test/plugins/test_completion.py	/^def test_numpy_completions(config, workspace):$/;"	f
+test_numpy_hover	test/plugins/test_hover.py	/^def test_numpy_hover(workspace):$/;"	f
+test_offset_at_position	test/test_document.py	/^def test_offset_at_position(doc):$/;"	f
+test_pandas_completions	test/plugins/test_completion.py	/^def test_pandas_completions(config, workspace):$/;"	f
+test_per_file_caching	test/plugins/test_pylint_lint.py	/^def test_per_file_caching(config, workspace):$/;"	f
+test_put_document	test/test_workspace.py	/^def test_put_document(pygls):$/;"	f
+test_pycodestyle	test/plugins/test_pycodestyle_lint.py	/^def test_pycodestyle(workspace):$/;"	f
+test_pycodestyle_config	test/plugins/test_pycodestyle_lint.py	/^def test_pycodestyle_config(workspace):$/;"	f
+test_pydocstyle	test/plugins/test_pydocstyle_lint.py	/^def test_pydocstyle(config, workspace):$/;"	f
+test_pydocstyle_empty_source	test/plugins/test_pydocstyle_lint.py	/^def test_pydocstyle_empty_source(config, workspace):$/;"	f
+test_pydocstyle_invalid_source	test/plugins/test_pydocstyle_lint.py	/^def test_pydocstyle_invalid_source(config, workspace):$/;"	f
+test_pydocstyle_test_document	test/plugins/test_pydocstyle_lint.py	/^def test_pydocstyle_test_document(config, workspace):$/;"	f
+test_pyflakes	test/plugins/test_pyflakes_lint.py	/^def test_pyflakes(workspace):$/;"	f
+test_pylint	test/plugins/test_pylint_lint.py	/^def test_pylint(config, workspace):$/;"	f
+test_pyqt_completion	test/plugins/test_completion.py	/^def test_pyqt_completion(config, workspace):$/;"	f
+test_range_format	test/plugins/test_autopep8_format.py	/^def test_range_format(config, workspace):$/;"	f
+test_range_format	test/plugins/test_yapf_format.py	/^def test_range_format(workspace):$/;"	f
+test_references	test/plugins/test_references.py	/^def test_references(tmp_workspace):  # pylint: disable=redefined-outer-name$/;"	f
+test_references_builtin	test/plugins/test_references.py	/^def test_references_builtin(tmp_workspace):  # pylint: disable=redefined-outer-name$/;"	f
+test_rm_document	test/test_workspace.py	/^def test_rm_document(pygls):$/;"	f
+test_root_project_with_no_setup_py	test/test_workspace.py	/^def test_root_project_with_no_setup_py(pygls):$/;"	f
+test_root_workspace_changed	test/test_workspace.py	/^def test_root_workspace_changed(pygls, tmpdir):$/;"	f
+test_root_workspace_not_changed	test/test_workspace.py	/^def test_root_workspace_not_changed(pygls, tmpdir):$/;"	f
+test_root_workspace_removed	test/test_workspace.py	/^def test_root_workspace_removed(tmpdir, pygls):$/;"	f
+test_rope_completion	test/plugins/test_completion.py	/^def test_rope_completion(config, workspace):$/;"	f
+test_rope_import_completion	test/plugins/test_completion.py	/^def test_rope_import_completion(config, workspace):$/;"	f
+test_rope_rename	test/plugins/test_rope_rename.py	/^def test_rope_rename(tmp_workspace, config):  # pylint: disable=redefined-outer-name$/;"	f
+test_settings_of_added_workspace	test/test_workspace.py	/^def test_settings_of_added_workspace(pygls, tmpdir):$/;"	f
+test_signature	test/plugins/test_signature.py	/^def test_signature(workspace):$/;"	f
+test_snippet_parsing	test/plugins/test_completion.py	/^def test_snippet_parsing(config, workspace):$/;"	f
+test_snippets_completion	test/plugins/test_completion.py	/^def test_snippets_completion(config, workspace):$/;"	f
+test_symbols	test/plugins/test_symbols.py	/^def test_symbols(config, workspace):$/;"	f
+test_symbols_all_scopes	test/plugins/test_symbols.py	/^def test_symbols_all_scopes(config, workspace):$/;"	f
+test_symbols_all_scopes_with_jedi_environment	test/plugins/test_symbols.py	/^def test_symbols_all_scopes_with_jedi_environment(workspace):$/;"	f
+test_syntax_error_pyflakes	test/plugins/test_pyflakes_lint.py	/^def test_syntax_error_pyflakes(workspace):$/;"	f
+test_syntax_error_pylint_py2	test/plugins/test_pylint_lint.py	/^def test_syntax_error_pylint_py2(config, workspace):$/;"	f
+test_syntax_error_pylint_py3	test/plugins/test_pylint_lint.py	/^def test_syntax_error_pylint_py3(config, workspace):$/;"	f
+test_sys_highlight	test/plugins/test_highlight.py	/^def test_sys_highlight(workspace):$/;"	f
+test_to_fs_path	test/test_uris.py	/^def test_to_fs_path(uri, path):$/;"	f
+test_undefined_name_pyflakes	test/plugins/test_pyflakes_lint.py	/^def test_undefined_name_pyflakes(workspace):$/;"	f
+test_unicode_encoding	test/plugins/test_pyflakes_lint.py	/^def test_unicode_encoding(workspace):$/;"	f
+test_uri_with	test/test_uris.py	/^def test_uri_with(uri, kwargs, new_uri):$/;"	f
+test_win_from_fs_path	test/test_uris.py	/^def test_win_from_fs_path(path, uri):$/;"	f
+test_win_to_fs_path	test/test_uris.py	/^def test_win_to_fs_path(uri, path):$/;"	f
+test_word_at_position	test/test_document.py	/^def test_word_at_position(doc):$/;"	f
+test_workspace_loads_pycodestyle_config	test/test_workspace.py	/^def test_workspace_loads_pycodestyle_config(pygls, tmpdir):$/;"	f
+tmp_workspace	test/plugins/test_jedi_rename.py	/^def tmp_workspace(temp_workspace_factory):$/;"	f
+tmp_workspace	test/plugins/test_references.py	/^def tmp_workspace(temp_workspace_factory):$/;"	f
+tmp_workspace	test/plugins/test_rope_rename.py	/^def tmp_workspace(temp_workspace_factory):$/;"	f
+to_fs_path	pygls/uris.py	/^def to_fs_path(uri):$/;"	f
+unexpectedError	pygls/plugins/pyflakes_lint.py	/^    def unexpectedError(self, _filename, msg):  # pragma: no cover$/;"	m	class:PyflakesDiagnosticReport
+unix_only	test/__init__.py	/^unix_only = pytest.mark.skipif(IS_WIN, reason="Unix only")$/;"	v
+update	pygls/config/config.py	/^    def update(self, settings):$/;"	m	class:Config
+update_config	pygls/workspace.py	/^    def update_config(self, settings):$/;"	m	class:Document
+update_config	pygls/workspace.py	/^    def update_config(self, settings):$/;"	m	class:Workspace
+update_document	pygls/workspace.py	/^    def update_document(self, doc_uri, change, version=None):$/;"	m	class:Workspace
+uri_with	pygls/uris.py	/^def uri_with(uri, scheme=None, netloc=None, path=None, params=None, query=None, fragment=None):$/;"	f
+url	setup.py	/^    url='https:\/\/github.com\/mullikine\/glossary-language-server',$/;"	v
+urlparse	pygls/uris.py	/^def urlparse(uri):$/;"	f
+urlunparse	pygls/uris.py	/^def urlunparse(parts):$/;"	f
+use_snippets	pygls/plugins/jedi_completion.py	/^def use_snippets(document, position):$/;"	f
+user_config	pygls/config/flake8_conf.py	/^    def user_config(self):$/;"	m	class:Flake8Config
+user_config	pygls/config/pycodestyle_conf.py	/^    def user_config(self):$/;"	m	class:PyCodeStyleConfig
+user_config	pygls/config/source.py	/^    def user_config(self):$/;"	m	class:ConfigSource
+user_options	versioneer.py	/^        user_options = []$/;"	v	class:get_cmdclass.cmd_version
+version	setup.py	/^    version=versioneer.get_version(),$/;"	v
+versions_from_file	versioneer.py	/^def versions_from_file(filename):$/;"	f
+versions_from_parentdir	pygls/_version.py	/^def versions_from_parentdir(parentdir_prefix, root, verbose):$/;"	f
+versions_from_parentdir	versioneer.py	/^def versions_from_parentdir(parentdir_prefix, root, verbose):$/;"	f
+watch_parent_process	pygls/glossary_ls.py	/^            def watch_parent_process(pid):$/;"	f	function:GlossaryLanguageServer.m_initialize
+windows_only	test/__init__.py	/^windows_only = pytest.mark.skipif(not IS_WIN, reason="Windows only")$/;"	v
+word_at_position	pygls/workspace.py	/^    def word_at_position(self, position):$/;"	m	class:Document
+workspace	test/fixtures.py	/^def workspace(tmpdir):$/;"	f
+workspace_other_root_path	test/fixtures.py	/^def workspace_other_root_path(tmpdir):$/;"	f
+wrapper	pygls/_utils.py	/^    def wrapper(func):$/;"	f	function:debounce
+wrapper	pygls/workspace.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:lock
+write_temp_doc	test/plugins/test_pylint_lint.py	/^def write_temp_doc(document, contents):$/;"	f
+write_to_version_file	versioneer.py	/^def write_to_version_file(filename, versions):$/;"	f

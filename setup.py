@@ -25,7 +25,7 @@ setup(
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
 
-    description='Python Language Server for the Language Server Protocol',
+    description='Glossary Language Server for the Language Server Protocol',
 
     long_description=README,
 
